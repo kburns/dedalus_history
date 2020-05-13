@@ -1,0 +1,272 @@
+2019-07-11 18:51:43,166 solvers 0/4 DEBUG :: Beginning IVP instantiation
+2019-07-11 18:51:43,183 transposes 0/4 DEBUG :: Building FFTW transpose plan for (dtype, gshape, axis) = (complex128, [ 8 16  8], 0)
+2019-07-11 18:51:43,202 transposes 0/4 DEBUG :: Building FFTW transpose plan for (dtype, gshape, axis) = (complex128, [ 4 15 16], 1)
+2019-07-11 18:51:43,223 basis 0/4 DEBUG :: Building FFTW DCT plan for (dtype, gshape, axis) = (complex128, (4, 8, 16), 2)
+2019-07-11 18:51:43,235 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,239 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*P)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,243 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*P)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,248 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*P)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,253 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,257 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,264 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,272 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,276 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,278 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,281 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,284 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,290 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,294 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,297 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,303 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,306 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,311 field 0/4 DEBUG :: Expanded NCC 'this_ncc*(-1*R)' to mode 0 with 1 terms.
+2019-07-11 18:51:43,314 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,329 field 0/4 DEBUG :: Expanded NCC 'this_ncc*-1' to mode 0 with 1 terms.
+2019-07-11 18:51:43,402 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,433 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,445 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,477 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,491 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,514 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,527 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,651 pencil 0/4 INFO :: Building pencil matrix 1/32 (~3%) Elapsed: 0s, Remaining: 9s, Rate: 3.4e+00/s
+2019-07-11 18:51:43,677 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,704 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,707 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,728 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,733 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,758 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,761 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,888 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,895 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,898 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,925 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,928 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,936 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:43,956 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,062 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,079 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,083 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,106 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,110 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,118 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,137 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,216 pencil 0/4 INFO :: Building pencil matrix 4/32 (~12%) Elapsed: 1s, Remaining: 6s, Rate: 4.7e+00/s
+2019-07-11 18:51:44,244 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,277 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,292 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,321 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,331 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,359 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,367 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,540 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,574 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,586 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,611 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,621 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,646 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,661 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,811 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,823 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,828 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,840 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,845 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,856 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,860 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,965 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:44,996 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,007 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,029 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,043 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,053 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,057 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,118 pencil 0/4 INFO :: Building pencil matrix 8/32 (~25%) Elapsed: 2s, Remaining: 5s, Rate: 4.5e+00/s
+2019-07-11 18:51:45,754 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,763 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,767 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,785 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,789 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,798 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,802 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,889 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,901 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,911 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,931 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,937 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,948 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:45,958 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,040 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,052 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,060 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,077 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,084 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,095 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,099 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,183 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,195 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,207 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,228 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,236 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,256 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,262 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,345 pencil 0/4 INFO :: Building pencil matrix 12/32 (~38%) Elapsed: 3s, Remaining: 5s, Rate: 4.0e+00/s
+2019-07-11 18:51:46,358 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,383 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,388 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,400 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,418 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,434 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,450 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,575 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,594 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,611 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,641 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,655 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,684 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,696 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,864 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,890 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,905 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,937 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,947 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,975 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:46,986 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,159 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,194 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,207 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,240 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,250 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,281 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,288 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,387 pencil 0/4 INFO :: Building pencil matrix 16/32 (~50%) Elapsed: 4s, Remaining: 4s, Rate: 4.0e+00/s
+2019-07-11 18:51:47,395 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,422 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,427 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,442 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,452 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,464 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,471 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,571 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,588 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,594 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,612 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,618 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,631 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,639 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,729 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,750 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,756 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,772 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,782 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,803 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,807 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,903 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,924 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,929 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,954 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,959 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,978 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:47,987 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,067 pencil 0/4 INFO :: Building pencil matrix 20/32 (~62%) Elapsed: 5s, Remaining: 3s, Rate: 4.2e+00/s
+2019-07-11 18:51:48,087 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,109 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,117 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,134 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,140 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,155 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,168 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,268 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,289 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,295 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,319 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,325 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,342 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,349 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,444 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,462 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,469 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,486 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,491 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,517 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,523 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,617 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,637 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,642 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,667 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,672 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,690 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,700 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,789 pencil 0/4 INFO :: Building pencil matrix 24/32 (~75%) Elapsed: 5s, Remaining: 2s, Rate: 4.4e+00/s
+2019-07-11 18:51:48,809 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,833 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,839 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,856 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,862 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,877 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:48,891 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,013 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,033 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,040 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,059 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,068 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,096 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,100 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,224 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,249 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,253 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,269 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,280 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,303 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,306 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,423 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,448 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,455 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,473 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,493 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,511 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,515 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:49,618 pencil 0/4 INFO :: Building pencil matrix 28/32 (~88%) Elapsed: 6s, Remaining: 1s, Rate: 4.5e+00/s
+2019-07-11 18:51:50,469 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,499 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,510 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,539 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,552 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,578 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,592 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,751 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,781 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,796 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,821 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,826 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,840 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,846 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,932 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,943 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,950 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,962 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,971 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,986 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:50,991 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:51,079 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:51,092 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:51,100 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:51,111 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:51,120 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:51,131 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:51,136 field 0/4 DEBUG :: Expanded NCC 'this_ncc' to mode 0 with 1 terms.
+2019-07-11 18:51:51,201 pencil 0/4 INFO :: Building pencil matrix 32/32 (~100%) Elapsed: 8s, Remaining: 0s, Rate: 4.1e+00/s
+2019-07-11 18:51:51,206 solvers 0/4 DEBUG :: Finished IVP instantiation
+2019-07-11 18:51:51,206 __main__ 0/4 INFO :: Solver built
+2019-07-11 18:51:51,208 basis 0/4 DEBUG :: Building FFTW FFT plan for (dtype, gshape, axis) = (float64, (16, 8, 8), 0)
+2019-07-11 18:51:51,320 basis 0/4 DEBUG :: Building FFTW FFT plan for (dtype, gshape, axis) = (complex128, (4, 16, 8), 1)
+Traceback (most recent call last):
+  File "mesh_rayleigh_benard.py", line 114, in <module>
+    snap = solver.evaluator.add_file_handler('snapshots', sim_dt=0.2, max_writes=10)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/evaluator.py", line 69, in add_file_handler
+    FH = FileHandler(filename, self.domain, self.vars, **kw)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/evaluator.py", line 397, in __init__
+    self.set_num = comm.bcast(set_num, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 1257, in mpi4py.MPI.Comm.bcast
+  File "mpi4py/MPI/msgpickle.pxi", line 630, in mpi4py.MPI.PyMPI_bcast
+  File "mpi4py/MPI/msgpickle.pxi", line 631, in mpi4py.MPI.PyMPI_bcast
+mpi4py.MPI.Exception: MPI_ERR_TRUNCATE: message truncated

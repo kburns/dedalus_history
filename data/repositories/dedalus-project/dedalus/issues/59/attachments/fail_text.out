@@ -1,0 +1,41 @@
+2019-06-06 17:56:04,543 pencil 0/1 INFO :: Building pencil matrix 1/128 (~1%) Elapsed: 0s, Remaining: 5s, Rate: 2.5e+01/s
+2019-06-06 17:56:04,966 pencil 0/1 INFO :: Building pencil matrix 13/128 (~10%) Elapsed: 0s, Remaining: 4s, Rate: 2.8e+01/s
+2019-06-06 17:56:05,406 pencil 0/1 INFO :: Building pencil matrix 26/128 (~20%) Elapsed: 1s, Remaining: 4s, Rate: 2.9e+01/s
+2019-06-06 17:56:05,849 pencil 0/1 INFO :: Building pencil matrix 39/128 (~30%) Elapsed: 1s, Remaining: 3s, Rate: 2.9e+01/s
+2019-06-06 17:56:06,401 pencil 0/1 INFO :: Building pencil matrix 52/128 (~41%) Elapsed: 2s, Remaining: 3s, Rate: 2.7e+01/s
+2019-06-06 17:56:06,860 pencil 0/1 INFO :: Building pencil matrix 65/128 (~51%) Elapsed: 2s, Remaining: 2s, Rate: 2.8e+01/s
+2019-06-06 17:56:07,301 pencil 0/1 INFO :: Building pencil matrix 78/128 (~61%) Elapsed: 3s, Remaining: 2s, Rate: 2.8e+01/s
+2019-06-06 17:56:07,745 pencil 0/1 INFO :: Building pencil matrix 91/128 (~71%) Elapsed: 3s, Remaining: 1s, Rate: 2.8e+01/s
+2019-06-06 17:56:08,187 pencil 0/1 INFO :: Building pencil matrix 104/128 (~81%) Elapsed: 4s, Remaining: 1s, Rate: 2.8e+01/s
+2019-06-06 17:56:08,628 pencil 0/1 INFO :: Building pencil matrix 117/128 (~91%) Elapsed: 4s, Remaining: 0s, Rate: 2.8e+01/s
+2019-06-06 17:56:08,997 pencil 0/1 INFO :: Building pencil matrix 128/128 (~100%) Elapsed: 4s, Remaining: 0s, Rate: 2.8e+01/s
+2019-06-06 17:56:09,001 __main__ 0/1 INFO :: Solver built
+2019-06-06 17:56:09,074 __main__ 0/1 INFO :: Starting loop
+2019-06-06 17:56:09,315 __main__ 0/1 ERROR :: Exception raised, triggering end of main loop.
+2019-06-06 17:56:09,315 __main__ 0/1 INFO :: Iterations: 0
+2019-06-06 17:56:09,315 __main__ 0/1 INFO :: Sim end time: 0.000000
+2019-06-06 17:56:09,315 __main__ 0/1 INFO :: Run time: 0.24 sec
+2019-06-06 17:56:09,315 __main__ 0/1 INFO :: Run time: 0.000067 cpu-hr
+
+Traceback (most recent call last):
+  File "rayleigh_benard.py", line 119, in <module>
+    dt = solver.step(dt)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/solvers.py", line 515, in step
+    self.timestepper.step(self, dt)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/timesteppers.py", line 560, in step
+    evaluator.evaluate_scheduled(**evaluator_kw)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/evaluator.py", line 107, in evaluate_scheduled
+    self.evaluate_handlers(scheduled_handlers, wall_time=wall_time, sim_time=sim_time, iteration=iteration, **kw)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/evaluator.py", line 146, in evaluate_handlers
+    self.require_coeff_space(outputs)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/evaluator.py", line 163, in require_coeff_space
+    self.domain.dist.paths[index-1].decrement(current_fields)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/distributor.py", line 371, in decrement
+    self.decrement_single(field)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/distributor.py", line 351, in decrement_single
+    self.basis.forward(gdata, cdata, self.axis, field.meta[self.axis], field.scales[self.axis])
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/basis.py", line 1472, in _forward_fftw
+    cdata, gdata = self.check_arrays(cdata, gdata, axis, scale)
+  File "/home/evan/research/dedalus/src/dedalus/dedalus/core/basis.py", line 156, in check_arrays
+    raise ValueError("gdata does not match scaled grid_size")
+ValueError: gdata does not match scaled grid_size

@@ -1,0 +1,8 @@
+{
+    "dedalus-project/dedalus": {
+        "project_file": "data/repositories/dedalus-project/dedalus.json",
+        "project_path": "data/repositories/dedalus-project/dedalus/",
+        "is_fork": false,
+        "github_repo": "https://github.com/kburns/dedalus"
+    }
+}
